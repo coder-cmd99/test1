@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tharith Store</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid p-3">
+        <a
+          style="font-size: 30px; margin-left: 10px"
+          class="navbar-brand"
+          href="#"
+          >TharithStore.</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2">
+              <a
+                style="text-transform: uppercase"
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-2">
+              <a
+                style="text-transform: uppercase"
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                >Service</a
+              >
+            </li>
+            <li class="nav-item mx-2">
+              <a
+                style="text-transform: uppercase"
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                >Product</a
+              >
+            </li>
+            <li class="nav-item mx-2">
+              <a
+                style="text-transform: uppercase"
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                >Watches</a
+              >
+            </li>
+            <li class="nav-item mx-2">
+              <a
+                style="text-transform: uppercase"
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                >sales</a
+              >
+            </li>
+            <li class="nav-item mx-2">
+              <a
+                style="text-transform: uppercase"
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                >Blogs</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                PAGES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a
+                    style="text-transform: uppercase"
+                    class="dropdown-item"
+                    href="#"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    style="text-transform: uppercase"
+                    class="dropdown-item"
+                    href="#"
+                    >Blogs</a
+                  >
+                </li>
+                <li>
+                  <a
+                    style="text-transform: uppercase"
+                    class="dropdown-item"
+                    href="#"
+                    >Cart</a
+                  >
+                </li>
+                <li>
+                  <a
+                    style="text-transform: uppercase"
+                    class="dropdown-item"
+                    href="#"
+                    >Checkout</a
+                  >
+                </li>
+                <li>
+                  <a
+                    style="text-transform: uppercase"
+                    class="dropdown-item"
+                    href="#"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <i
+              style="font-size: 17px"
+              class="fa-solid fa-magnifying-glass mx-2"
+            ></i>
+            <i style="font-size: 17px" class="fa-solid fa-user mx-2"></i>
+            <i
+              style="font-size: 17px"
+              class="fa-solid fa-cart-shopping mx-2"
+            ></i>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--Slide Product-->
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div style="font-size: 600px" class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                style="width: 100%; height: 500px; object-fit: contain"
+                src="./imgofProduct/4.png"
+                class="d-block w-100"
+                alt=""
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                style="width: 100%; height: 500px; object-fit: contain"
+                src="./imgofProduct/3.png"
+                class="d-block w-100"
+                alt=""
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                style="width: 100%; height: 500px; object-fit: contain"
+                src="./imgofProduct/5.png"
+                class="d-block w-100"
+                alt=""
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--Avantages of Shop-->
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-3">
+          <div class="text">
+            <div class="d-flex">
+              <i
+                style="font-size: 25px; color: rgba(0, 255, 255, 0.963)"
+                class="fa-solid fa-cart-shopping mx-2 mt-2"
+              ></i>
+              <p style="font-size: 25px">FREE DELIVERY</p>
+            </div>
+            <p style="padding-left: 50px; color: grey; font-size: 17px">
+              Always free delivery when <br />
+              did you buy.
+            </p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="text">
+            <div class="d-flex">
+              <i
+                style="font-size: 25px; color: rgba(0, 255, 255, 0.963)"
+                class="fa-solid fa-medal mx-2 mt-2"
+              ></i>
+              <p style="font-size: 25px">QUALITY GUARANTEE</p>
+            </div>
+            <p style="padding-left: 50px; color: grey; font-size: 17px">
+              The best quility and <br />
+              good serve.
+            </p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="text">
+            <div class="d-flex">
+              <i
+                style="font-size: 25px; color: rgba(0, 255, 255, 0.963)"
+                class="fa-solid fa-tag mx-2 mt-2"
+              ></i>
+              <p style="font-size: 25px">DAILY OFFERS</p>
+            </div>
+            <p style="padding-left: 50px; color: grey; font-size: 17px">
+              Discount everyday and <br />
+              have promotions.
+            </p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="text">
+            <div class="d-flex">
+              <i
+                style="font-size: 23px; color: rgba(0, 255, 255, 0.963)"
+                class="fa-solid fa-cart-plus mx-2 mt-2"
+              ></i>
+              <p style="font-size: 23px">100% SECURE PAYMENT</p>
+            </div>
+            <p style="padding-left: 50px; color: grey; font-size: 17px">
+              Safe 100% when you <br />
+              buy online and fast.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Mobile Phone-->
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-between align-items-center">
+          <h3 style="text-transform: uppercase">Mobile Product</h3>
+          <button
+            style="
+              text-transform: uppercase;
+              border: none;
+              background: none;
+              font-size: 18px;
+              text-decoration: underline;
+            "
+            type="button"
+          >
+            Go to shop
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner" style="height: 400px">
+            <div class="carousel-item active flex">
+              <div class="row">
+                <div class="col-3">
+                  <div class="">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="./imgofProduct/Ip16.webp"
+                        class="card-img-top"
+                        alt=""
+                      />
+                      <div
+                        class="card-body d-flex justify-content-between align-items-center"
+                      >
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title"
+                        >
+                          Iphone 16
+                        </h5>
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title text-primary"
+                        >
+                          949$
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="./imgofProduct/iphone-15-pro-max-naturaltitanium.jpg"
+                        class="card-img-top"
+                        alt=""
+                      />
+                      <div
+                        class="card-body d-flex justify-content-between align-items-center"
+                      >
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title"
+                        >
+                          Iphone 15 pro max
+                        </h5>
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title text-primary"
+                        >
+                          1119$
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="./imgofProduct/Samsung-S25-ultra.jpg"
+                        class="card-img-top"
+                        alt=""
+                      />
+                      <div
+                        class="card-body d-flex justify-content-between align-items-center"
+                      >
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title"
+                        >
+                          S25 ultra
+                        </h5>
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title text-primary"
+                        >
+                          1499$
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="./imgofProduct/xiaomi-15-ultra.jpg"
+                        class="card-img-top"
+                        alt=""
+                      />
+                      <div
+                        class="card-body d-flex justify-content-between align-items-center"
+                      >
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title"
+                        >
+                          Xiaomi 15 ultra
+                        </h5>
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title text-primary"
+                        >
+                          1699$
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item flex">
+              <div class="row">
+                <div class="col-3">
+                  <div class="">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="./imgofProduct/Ip16.webp"
+                        class="card-img-top"
+                        alt=""
+                      />
+                      <div
+                        class="card-body d-flex justify-content-between align-items-center"
+                      >
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title"
+                        >
+                          Iphone 16
+                        </h5>
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title text-primary"
+                        >
+                          949$
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="./imgofProduct/iphone-15-pro-max-naturaltitanium.jpg"
+                        class="card-img-top"
+                        alt=""
+                      />
+                      <div
+                        class="card-body d-flex justify-content-between align-items-center"
+                      >
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title"
+                        >
+                          Iphone 15 pro max
+                        </h5>
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title text-primary"
+                        >
+                          1119$
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="./imgofProduct/Samsung-S25-ultra.jpg"
+                        class="card-img-top"
+                        alt=""
+                      />
+                      <div
+                        class="card-body d-flex justify-content-between align-items-center"
+                      >
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title"
+                        >
+                          S25 ultra
+                        </h5>
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title text-primary"
+                        >
+                          1499$
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="./imgofProduct/xiaomi-15-ultra.jpg"
+                        class="card-img-top"
+                        alt=""
+                      />
+                      <div
+                        class="card-body d-flex justify-content-between align-items-center"
+                      >
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title"
+                        >
+                          Xiaomi 15 ultra
+                        </h5>
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title text-primary"
+                        >
+                          1699$
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Smart Watch-->
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-between align-items-center">
+          <h3 style="text-transform: uppercase">Smart Watches</h3>
+          <button
+            style="
+              text-transform: uppercase;
+              border: none;
+              background: none;
+              font-size: 18px;
+              text-decoration: underline;
+            "
+            type="button"
+          >
+            Go to shop
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner" style="height: 400px">
+            <div class="carousel-item active flex">
+              <div class="row">
+                <div class="col-3">
+                  <div class="">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="./imgofProduct/sw1.png"
+                        class="card-img-top"
+                        alt=""
+                      />
+                      <div
+                        class="card-body d-flex justify-content-between align-items-center"
+                      >
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title"
+                        >
+                          Apple Ultra
+                        </h5>
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title text-primary"
+                        >
+                          299$
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="./imgofProduct/sw2.png"
+                        class="card-img-top"
+                        alt=""
+                      />
+                      <div
+                        class="card-body d-flex justify-content-between align-items-center"
+                      >
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title"
+                        >
+                          Galaxy 5
+                        </h5>
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title text-primary"
+                        >
+                          399$
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="./imgofProduct/hua3.png"
+                        class="card-img-top"
+                        alt=""
+                      />
+                      <div
+                        class="card-body d-flex justify-content-between align-items-center"
+                      >
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title"
+                        >
+                          Huaweii3
+                        </h5>
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title text-primary"
+                        >
+                          99$
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="./imgofProduct/sw2.png"
+                        class="card-img-top"
+                        alt=""
+                      />
+                      <div
+                        class="card-body d-flex justify-content-between align-items-center"
+                      >
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title"
+                        >
+                          Galaxy 4
+                        </h5>
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title text-primary"
+                        >
+                          199$
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item flex">
+              <div class="row">
+                <div class="col-3">
+                  <div class="">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="./imgofProduct/sw1.png"
+                        class="card-img-top"
+                        alt=""
+                      />
+                      <div
+                        class="card-body d-flex justify-content-between align-items-center"
+                      >
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title"
+                        >
+                          Apple Ultra
+                        </h5>
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title text-primary"
+                        >
+                          299$
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="./imgofProduct/sw2.png"
+                        class="card-img-top"
+                        alt=""
+                      />
+                      <div
+                        class="card-body d-flex justify-content-between align-items-center"
+                      >
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title"
+                        >
+                          Galaxy 5
+                        </h5>
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title text-primary"
+                        >
+                          399$
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="./imgofProduct/hua3.png"
+                        class="card-img-top"
+                        alt=""
+                      />
+                      <div
+                        class="card-body d-flex justify-content-between align-items-center"
+                      >
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title"
+                        >
+                          Huaweii3
+                        </h5>
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title text-primary"
+                        >
+                          99$
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="./imgofProduct/sw2.png"
+                        class="card-img-top"
+                        alt=""
+                      />
+                      <div
+                        class="card-body d-flex justify-content-between align-items-center"
+                      >
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title"
+                        >
+                          Galaxy 4
+                        </h5>
+                        <h5
+                          style="text-transform: uppercase"
+                          class="card-title text-primary"
+                        >
+                          199$
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Disc Banner-->
+    <div
+      style="background-color: floralwhite"
+      class="container-fluid mt-5 mb-5"
+    >
+      <div class="row">
+        <div class="col-6 d-flex justify-content-center align-items-center">
+          <div class="justify-content-center align-items-center">
+            <p style="font-size: 30px">
+              10% off <br />
+              <span style="font-size: 50px; text-transform: uppercase"
+                >Mid Season Sale</span
+              ><br />
+            </p>
+            <button
+              style="
+                border: none;
+                background-color: rgb(0, 0, 0);
+                color: white;
+                outline: none;
+                width: 150px;
+                text-transform: uppercase;
+                padding: 10px 20px;
+              "
+              type="button"
+            >
+              Shop sale
+            </button>
+          </div>
+        </div>
+        <div class="col-6">
+          <img
+            style="height: 500px; width: 100%; object-fit: cover"
+            src="./imgofProduct/image (3).png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!--Lasted post-->
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-between align-items-center">
+          <h3 style="text-transform: uppercase">Lastest Posts</h3>
+          <button
+            style="
+              text-transform: uppercase;
+              border: none;
+              background: none;
+              font-size: 18px;
+              text-decoration: underline;
+            "
+            type="button"
+          >
+            Read blog
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="" style="width: 25rem">
+            <img src="./imgofProduct/ear-bud.jpg" class="card-img-top rounded" alt="..." />
+            <div class="card-body">
+              <p class="card-text px-3 py-3">
+                <span style="color: grey; text-transform: uppercase;">
+                  May 15, 2025 - Gadgets
+                </span><br>
+                <span style="border: none; background:none; text-transform: uppercase;font-size: 20px; ">Get Some cool gadgets in 2025</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="" style="width: 25rem">
+            <img  src="./imgofProduct/speaker.jpg" class="card-img-top rounded" alt="..." />
+            <div class="card-body">
+              <p class="card-text px-3 py-3">
+                <span style="color: grey; text-transform: uppercase;">
+                  jun 1, 2025 - nootry
+                </span><br>
+                <span style="border: none; background:none; text-transform: uppercase;font-size: 20px; ">Best sound on the top</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="mx-2" style="width: 25rem">
+            <img src="./imgofProduct/80W-fast-charger.jpg" class="card-img-top rounded" alt="..." />
+            <div class="card-body">
+              <p class="card-text px-3 py-3">
+                <span style="color: grey; text-transform: uppercase; ">
+                  jun 5, 2025 - Ankor
+                </span><br>
+                <span style="border: none; background:none; text-transform: uppercase;font-size: 20px; ">Top 10 of fast charger</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Qout-->
+    <div class="container-fluid bg-light">
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="d-flex justify-content-center align-items-center">
+          <i style="font-size: 100px; color: gainsboro;" class="fa-sharp fa-solid fa-quote-right"></i>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <span style="font-size: 25px; width: 85%; text-align: center;">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem alias at aperiam. Molestiae quia ipsam modi nisi accusamus autem cumque laboriosam
+             dolorum aspernatur pariatur laborum, quaerat porro nulla, voluptatum dolor.
+          </span>
+        </div>
+        <div class="d-flex justify-content-center align-items-center mt-2">
+            <i class="fa-solid fa-star text-info"></i>
+            <i class="fa-solid fa-star  text-info"></i>
+            <i class="fa-solid fa-star  text-info"></i>
+            <i class="fa-solid fa-star  text-info"></i>
+            <i class="fa-regular fa-star  text-info"></i>
+        </div>
+        <div class="d-flex justify-content-center align-items-center mt-2">
+            <p style="text-transform: uppercase; font-size: 16px;">
+              pariatur laborum
+            </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex justify-content-center align-items-center">
+          <i style="font-size: 100px; color: gainsboro;" class="fa-sharp fa-solid fa-quote-right"></i>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <span style="font-size: 25px; width: 85%; text-align: center;">
+            producciones con mejores evaluaciones de la artista en dicho sitio web. Los expertos elogiaron el material especialmente por ser más cohesivo que sus álbumes anteriores, además de destacar aspectos como la producción
+          </span>
+        </div>
+        <div class="d-flex justify-content-center align-items-center mt-2">
+            <i class="fa-solid fa-star text-info"></i>
+            <i class="fa-solid fa-star  text-info"></i>
+            <i class="fa-solid fa-star  text-info"></i>
+            <i class="fa-solid fa-star  text-info"></i>
+            <i class="fa-regular fa-star  text-info"></i>
+        </div>
+        <div class="d-flex justify-content-center align-items-center mt-2">
+            <p style="text-transform: uppercase; font-size: 16px;">
+               actor italiano
+            </p>
+        </div>
+      </div>
+    
+      </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+        </div>
+      </div>
+    </div>
+    <!--Subcribe us-->
+    <div class="container mb-5 mt-5">
+      <div class="row bg-dark">
+        <div class="col-6 px-5 py-5">
+          <span style="text-transform: uppercase; color: white; font-size: 30px;">Subscribe us now</span><br>
+          <span style="color: blanchedalmond;">Get lastest news,updates and deals directly mailed to your inbox.</span>
+        </div>
+        <div class="col-6  px-5 py-5">
+          <input type="email" style="width: 350px; margin-top: 20px; padding: 10px; outline: none ; border: none;"
+           placeholder="Your email address here">
+           <button class="bg-info" style="outline: none; color: white; border: none; text-transform: uppercase; padding: 10px; width: 200px;" 
+           type="button">Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <!--Shop on ig-->
+    <div class="container mt-5 mb-5">
+      <div class="d-flex justify-content-center align-items-center mb-3">
+        <div class="d-flex justify-content-center align-items-center">
+          <span style="text-transform: uppercase; font-size: 30px;">Shop our instra</span>
+        </div>
+      </div>
+       <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+      <div class="col">
+        <div class="p-3 border bg-light">
+          <img style="width: 200px; height: 300px; object-fit: cover;;" src="./editimg/smw3.png" alt="">
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">
+          <img style="width: 100%; height: 300px; object-fit: cover;" src="./editimg/smw7.png" alt="">
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">
+          <img style="width: 200px; height: 300px; object-fit: cover;" src="./editimg/smw2.png" alt="">
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">
+          <img style="width: 200px; height: 300px; object-fit: cover;" src="./editimg/smw4.png" alt="">
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">
+          <img style="width: 200px; height: 300px; object-fit: cover;" src="./editimg/smw5.png" alt="">
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--footer-->
+    <div style="margin-top: 20px;" class="container mb-3">
+      <div class="row">
+        <div class="col-3">
+          <span style="font-size: 30px; font-weight: bold; ">TharithStore.</span> <br>
+          <span style="font-size: 17px; color: lightgrey;">Nothing is more important than 
+            <br>practicing patience with the <br>
+             customer you're speaking with.</span>
+             <div style="font-size: 20px; color: lightgrey;" class="">
+            <i style="margin-right: 10px;" class="fa-brands fa-facebook-f"></i>
+            <i style="margin-right: 10px;" class="fa-brands fa-instagram"></i>
+            <i style="margin-right: 10px;" class="fa-brands fa-square-x-twitter"></i>
+            <i style="margin-right: 10px;" class="fa-brands fa-linkedin"></i>
+            <i  class="fa-brands fa-telegram"></i>
+        </div>
+        </div>
+        <div class="col-3">
+          <span style="text-transform: uppercase; font-size: 25px; padding: 0px 30px;">Quick links</span>
+          <ul>
+            <li style="list-style-type: none;">
+              <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;" href="#">Home</a>
+            </li>
+            <li style="list-style-type: none;">
+              <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;" href="#">About</a>
+            </li>
+            <li style="list-style-type: none;">
+              <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;" href="#">Shop</a>
+            </li>
+            <li style="list-style-type: none;">
+              <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;" href="#">Blogs</a>
+            </li>
+            <li style="list-style-type: none;">
+              <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <span style="text-transform: uppercase; font-size: 25px; padding: 0px 30px;">Help & info help</span>
+          <ul>
+            <li style="list-style-type: none;">
+              <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;" href="#">Track your order</a>
+            </li>
+            <li style="list-style-type: none;">
+              <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;" href="#">Returns policies</a>
+            </li>
+            <li style="list-style-type: none;">
+              <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;" href="#">Shipping+Delivery</a>
+            </li>
+            <li style="list-style-type: none;">
+              <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;" href="#">Connect with us</a>
+            </li>
+            <li style="list-style-type: none;">
+              <a style="list-style-type: none; text-decoration: none; text-transform: uppercase; color: black;" href="#">faqs</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <span style="text-transform: uppercase; font-size: 25px; ">Contact us</span><br>
+          <span style="font-size: 17px; color: lightgrey;">Do you have any suggestions?</span>
+          <span>ritht7783@gmail.com</span><br><br>
+          <span style="font-size: 17px; color: lightgrey;">If you need support,just give us a call.</span><br>
+          <span>+885 968291427</span>
+        </div>
+      </div>
+    </div>
+    <!--End Footer-->
+    <div class="container-fluid mb-3">
+      <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <span style="font-size: 17px; color: lightgrey;">We ship with: MiniStore.</span>
+          </div>
+          <div class="col-4">
+            <span style="font-size: 17px; color: lightgrey;">Payment options:
+              <i class="fa-brands fa-cc-visa"></i>
+              <i class="fa-brands fa-cc-mastercard"></i>
+              ABA
+            </span>
+          </div>
+          <div class="col-4">
+             <span style="font-size: 17px; color: lightgrey;">​© Copyright 2025 TharithStore.Design by <span style="color: black;">Tharith.</span>
+            Distribution by <span style="color: black;">Tharith.</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</html>
